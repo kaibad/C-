@@ -14,29 +14,36 @@ public:
 
 class Student : public Person
 {
+    // int total_marks;
+
 public:
     Student(string nm, int ag, int mrks[5])
     {
+        total_marks = 500;
         name = nm;
         age = ag;
-        float marks_obtained = 0;
+        // float marks_obtained = 0;
         for (int i = 0; i < 5; i++)
         {
             marks_obtained += mrks[i];
         }
-        int total_marks = 5 * 100;
+        cout << marks_obtained << endl;
     }
     void display()
     {
         cout << "Name: " << name << endl;
         cout << "Age: " << age << endl;
-        cout << "Percentage: " << percentage << endl;
     }
 
     void calculate_percentage()
     {
+        cout << total_marks << marks_obtained << endl;
         if (total_marks != 0)
+        {
             percentage = (marks_obtained / total_marks) * 100;
+            cout << "Percentage: " << percentage << endl;
+        }
+
         else
             cout << "total marks is not initialized" << endl;
     }
