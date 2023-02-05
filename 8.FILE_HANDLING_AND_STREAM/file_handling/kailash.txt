@@ -1,5 +1,3 @@
-hello world
-
-thank you
-
-My name is kailash badu
+19
+kailash
+2.25
