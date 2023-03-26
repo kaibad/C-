@@ -1,0 +1,8 @@
+Name			Age			Address			% Score
+-----------------------------------------------------------------
+John Doe			18	123 Main St			88
+Jane Doe			19	456 Elm St			91
+Bob Smith			20	789 Oak St			84
+Alice Johnson		18	234 Pine St			89
+Tom Wilson			19	567 Maple St		89
+-------------------------------------------------
